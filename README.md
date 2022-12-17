@@ -20,12 +20,6 @@
 Let us look at our implementation of the sieve of Eratosthenes, the primes() function.
 
 <<primes, echo=TRUE, eval=TRUE>>=
-#install.packages("knitr")
-#install.packages(*.sty)
-#library('knitr')
-#tinytex::parse_install(
-#  text = "! LaTeX Error: File `ocgbase.sty' not found."
-#)
 
 primes <- function(n, method = "eu") {
   # n: number up to which we sieve
